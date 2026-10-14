@@ -6,7 +6,7 @@
 
 會陪你聊天、有自己的作息、記得你們的每段對話，關係也會一天一天慢慢改變。
 
-![版本](https://img.shields.io/badge/版本-1.0.19-8a7ad8)
+![版本](https://img.shields.io/badge/版本-1.0.20-8a7ad8)
 ![平台](https://img.shields.io/badge/Windows-10%20%2F%2011%20(64%20位元)-5a8ad8)
 ![版本類型](https://img.shields.io/badge/單機版-資料只存在你的電腦-1d9e75)
 ![Claude Code](https://img.shields.io/badge/開發協作-Claude%20Code-d97757)
@@ -22,7 +22,7 @@
 
 | | |
 |---|---|
-| 🧸 **桌面上的夥伴** | 支援 Live2D、Spine、圖片、GIF。角色會依聊天內容變表情、眨眼、說話時動嘴，想睡時眼睛半開；Spine 小人還會在工作列上散步。 |
+| 🧸 **桌面上的夥伴** | 支援 Live2D、Spine、Shimeji、圖片、GIF。角色會依聊天內容變表情、眨眼、說話時動嘴，想睡時眼睛半開；Spine 小人會在工作列上散步，Shimeji 照原作者的設定走來走去，還能拎起來甩出去。 |
 | 💬 **會記得你的聊天** | 聊過的事會整理成長期記憶，聊得越久越了解你。支援 SillyTavern 角色卡（V1／V2／V3）和世界書。 |
 | 💞 **關係會改變** | 好感度從陌生人一路到摯友、戀人，也可能變成討厭；越熟越難加分。角色會記得你的生日、你們認識的紀念日。 |
 | 🌙 **有自己的生活** | 依角色卡安排作息：你離開一陣子回來，他會說剛剛去做了什麼，還會發「動態」，你可以按讚、留言。 |
@@ -119,7 +119,7 @@
 
 **3. 放進你的角色**
 
-- 「人物模型」→ 匯入你的 Live2D／Spine／圖片模型（支援資料夾、zip、rar）。
+- 「人物模型」→ 匯入你的 Live2D／Spine／Shimeji／圖片模型（支援資料夾、zip、rar）。
 - 「角色卡」→ 自己寫一張，或匯入 SillyTavern 角色卡，再到角色詳情綁上去。
 - 右鍵 →「開啟對話」，開始聊天吧！
 
@@ -201,12 +201,12 @@ Soullink 站在這些開源專案和元件的肩膀上，各自依它們的授�
 |---|---|---|
 | [Electron](https://www.electronjs.org/) | 桌面程式本體 | MIT |
 | [PixiJS](https://pixijs.com/)、[@pixi/sound](https://github.com/pixijs/sound) | 畫面繪製、音效 | MIT |
-| [untitled-pixi-live2d-engine](https://www.npmjs.com/package/untitled-pixi-live2d-engine)、[easy-live2d](https://www.npmjs.com/package/easy-live2d) | 顯示 Live2D 模型 | MIT／MPL-2.0 |
+| [untitled-pixi-live2d-engine](https://www.npmjs.com/package/untitled-pixi-live2d-engine) | 顯示 Live2D 模型 | MIT |
 | [Live2D Cubism Core](https://www.live2d.com/) | Live2D 模型核心 | Live2D 專有授權 |
 | [Spine Runtimes](https://esotericsoftware.com/) | 顯示 Spine 模型 | Spine Runtimes License |
 | [soullink-emotion-sdk](https://github.com/nanlingyin/soullink-emotion-sdk) | 待機微動、眨眼、呼吸、混合表情 | MIT |
 | [whisper.cpp](https://github.com/ggerganov/whisper.cpp)、[nodejs-whisper](https://www.npmjs.com/package/nodejs-whisper) | 本機語音辨識 | MIT |
-| [FFmpeg](https://ffmpeg.org/)（[gyan.dev](https://www.gyan.dev/ffmpeg/builds/) 9.0.1 編譯版，[原始碼](https://github.com/FFmpeg/FFmpeg/commit/bf1b838f2a)） | 語音輸入的音檔轉換，以獨立的  執行 | GPL v3 |
+| [FFmpeg](https://ffmpeg.org/)（[gyan.dev](https://www.gyan.dev/ffmpeg/builds/) 9.0.1 編譯版，[原始碼](https://github.com/FFmpeg/FFmpeg/commit/bf1b838f2a)） | 語音輸入的音檔轉換，以獨立的程式執行 | GPL v3 |
 | [node-edge-tts](https://www.npmjs.com/package/node-edge-tts) | 免費的 Edge 語音 | MIT |
 | [uiohook-napi](https://www.npmjs.com/package/uiohook-napi) | 全域快捷鍵 | MIT |
 | [opencc-js](https://www.npmjs.com/package/opencc-js) | 簡體轉繁體 | MIT／Apache-2.0 |
