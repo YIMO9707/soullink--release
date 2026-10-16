@@ -6,7 +6,7 @@
 
 會陪你聊天、有自己的作息、記得你們的每段對話，關係也會一天一天慢慢改變。
 
-![版本](https://img.shields.io/badge/版本-1.0.20-8a7ad8)
+![版本](https://img.shields.io/badge/版本-1.0.21-8a7ad8)
 ![平台](https://img.shields.io/badge/Windows-10%20%2F%2011%20(64%20位元)-5a8ad8)
 ![版本類型](https://img.shields.io/badge/單機版-資料只存在你的電腦-1d9e75)
 ![Claude Code](https://img.shields.io/badge/開發協作-Claude%20Code-d97757)
